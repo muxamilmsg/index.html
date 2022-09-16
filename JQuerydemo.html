@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 style="margin-left: 20px; margin-top: 10px; text-align: justify; text-decoration: underline;">Hello World</h1>
+    <p id="p1" style="margin-left: 20px; text-align: justify; font-size: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus dignissimos aut ipsam quaerat iusto, assumenda amet odit vero recusandae, voluptates ad repudiandae provident nostrum deleniti mollitia deserunt odio unde iure dicta dolorum ex quis incidunt pariatur expedita? Laudantium molestias corporis quo vero harum odio laboriosam aspernatur fugit autem quisquam. Similique nostrum quaerat earum blanditiis optio, expedita alias laboriosam facere, porro et voluptas id at iste amet consequuntur eos temporibus. Ut facilis aliquam, velit ea ullam laboriosam minima soluta. Ut quibusdam, totam neque ullam eveniet reiciendis cum? Illum odio nulla itaque minus repudiandae harum asperiores. Recusandae repellendus ex pariatur nulla est.</p>
+    <button class="btn btn-primary" id="a" style="margin-left: 20px;">HIDE</button>
+    <button class="btn btn-success" id="b" style="margin-left: 20px;">SHOW</button>
+    <button class="btn btn-secondary" id="c" style="margin-left: 20px;">TOGGLE</button>
+
+
+
+
+        <!-- JQuery Started -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+
+            $('#a').click(function(){
+                $('#p1').hide();
+            });
+
+
+            $('#b').click(function(){
+                $('#p1').show();
+            });
+
+
+            $('#c').click(function(){
+                $('#p1').toggle();
+            });
+
+
+
+
+
+        });
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+<title>Title</title>
+<style>
+    body{
+        background-color: cadetblue;
+    }
+</style>
+</head>
+<body>
+    <div class="container mt-3" >
+        <table class="table table-bordered border-secondary" style="color: White;" id="myTable">
+            <thead>
+            <tr>
+                <th>S/n</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>1</td>
+                <td>Ahmed</td>
+                <td>20</td>
+                <td>Karachi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ali</td>
+                <td>24</td>
+                <td>Lahore</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shahid</td>
+                <td>22</td>
+                <td>Faislabad</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tauqeer</td>
+                <td>21</td>
+                <td>Karachi</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Taha</td>
+                <td>26</td>
+                <td>Islamabad</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Muxamil</td>
+                <td>22</td>
+                <td>KPK</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Faizan</td>
+                <td>20</td>
+                <td>Mirpur</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Rohan</td>
+                <td>24</td>
+                <td>Lahore</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Arsalan</td>
+                <td>22</td>
+                <td>Karachi</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ahmed</td>
+                <td>20</td>
+                <td>Karachi</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Ali</td>
+                <td>24</td>
+                <td>Lahore</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Shahid</td>
+                <td>22</td>
+                <td>Faislabad</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Tauqeer</td>
+                <td>21</td>
+                <td>Karachi</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Taha</td>
+                <td>26</td>
+                <td>Islamabad</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Muxamil</td>
+                <td>22</td>
+                <td>KPK</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Faizan</td>
+                <td>20</td>
+                <td>Mirpur</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Rohan</td>
+                <td>24</td>
+                <td>Lahore</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Arsalan</td>
+                <td>22</td>
+                <td>Karachi</td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+</script>
+
+</body>
+</html>
